@@ -14,7 +14,6 @@ type JokesData = {
   total: number;
   result: Joke[];
 }
-
 const Search = () => {
   const [query, setQuery] = useState<string>('');
   const [data, setData] = useState<JokesData | null>(null);
